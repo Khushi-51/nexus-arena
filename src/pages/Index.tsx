@@ -30,7 +30,7 @@ const Index = () => {
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-orbitron font-bold mb-6 leading-tight">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[hsl(var(--monad-primary))] to-[hsl(var(--monad-secondary))]">
-                  Monad Crypto Heroes
+                  Nexus Arena
                 </span>
               </h1>
               

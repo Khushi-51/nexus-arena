@@ -19,9 +19,9 @@ export const Header = () => {
             </div>
             <h1 className="text-xl font-orbitron font-bold text-white">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[hsl(var(--monad-primary))] to-[hsl(var(--monad-secondary))]">
-                Monad
+                Nexus
               </span>{" "}
-              Crypto Heroes
+              Arena
             </h1>
           </Link>
         </div>
