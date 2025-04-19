@@ -1,5 +1,5 @@
 
-## Project info
+# nexus-arena
 
 **URL**: https://monad-hero-arena.vercel.app/
 
@@ -12,4 +12,3 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-# nexus-arena
