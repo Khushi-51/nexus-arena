@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dark theme by default for crypto game */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Monad Theme Colors */
+    --monad-primary: 280 100% 60%; /* Electric Purple */
+    --monad-secondary: 200 100% 50%; /* Neon Blue */
+    --monad-accent: 135 100% 50%; /* Neon Green */
+    --monad-dark: 240 20% 5%; /* Nearly Black */
+    --monad-light: 240 10% 90%; /* Light Gray */
+
+    --primary: var(--monad-primary);
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: var(--monad-secondary);
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 240 10% 15%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: var(--monad-accent);
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 80% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 135 80% 40%;
+    --success-foreground: 0 0% 98%;
+
+    --border: 240 10% 15%;
+    --input: 240 10% 10%;
+    --ring: var(--monad-primary);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 240 10% 5%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: var(--monad-primary);
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: var(--monad-secondary);
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 240 10% 15%;
+    --sidebar-ring: var(--monad-primary);
+  }
+
+  .light {
+    --background: 0 0% 95%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: var(--monad-primary);
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: var(--monad-secondary);
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: var(--monad-accent);
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 80% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 135 80% 40%;
+    --success-foreground: 0 0% 98%;
+
+    --border: 0 0% 85%;
+    --input: 0 0% 90%;
+    --ring: var(--monad-primary);
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 240 10% 3.9%;
+    --sidebar-primary: var(--monad-primary);
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: var(--monad-secondary);
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 85%;
+    --sidebar-ring: var(--monad-primary);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
